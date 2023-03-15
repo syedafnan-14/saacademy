@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/phone.css">
+    <script src="https://kit.fontawesome.com/585bc2d4a8.js" crossorigin="anonymous"></script>
+    <title>SA Academy</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="">SA Academy</a>
+        
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./course.html">Course</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+            </ul>
+            <div class="io">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Certificate & Online Program </h1>
+    </section>
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="./images/im7.avif" alt="">
+                <h2>Our Certificate & Online Program</h2>
+                <p>"Our blog is your go-to resource for the latest trends, tips, and insights in the world of coding. Whether you're a seasoned developer or just starting out, our expert contributors share their knowledge and experience to help you stay ahead of the curve. From programming languages to industry news, our blog has something for everyone."</p>
+                <br>
+                <p>"In addition to our team of expert contributors, our blog features guest posts from top developers and thought leaders in the field. You'll gain valuable insights and perspectives from a diverse range of voices and experiences. Join our community of learners and stay up-to-date with the latest in coding and technology through our engaging and informative blog."</p>
+            </div>
+            <div class="blog-right">
+                <h3>Categories</h3>
+                <div>
+                    <span>C-Programming</span>
+                    <span> <i class="fa-solid fa-star"></i></span>
+                </div>
+                <div>
+                    <span>C++</span>
+                    <span> <i class="fa-solid fa-star"></i></span>
+                </div>
+                <div>
+                    <span>Java</span>
+                    <span> <i class="fa-solid fa-star"></i></span>
+                </div>
+                <div>
+                    <span>JavaScript</span>
+                    <span> <i class="fa-solid fa-star-half-stroke"></i></span>
+                </div>
+                <div>
+                    <span>Python</span>
+                    <span> <i class="fa-solid fa-star-half-stroke"></i></span>
+                </div>
+                <div>
+                    <span>Android Development</span>
+                    <span> <i class="fa-solid fa-star-half-stroke"></i></span>
+                </div>
+                <div>
+                    <span>Web Development</span>
+                    <span> <i class="fa-solid fa-star"></i></span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span> <i class="fa-solid fa-star-half-stroke"></i></span>
+                </div>
+                <div>
+                    <span>Cloud Computing</span>
+                    <span> <i class="fa-solid fa-star-half-stroke"></i></span>
+                </div>
+                <div>
+                    <span>Artificial Intelligence</span>
+                    <span> <i class="fa-solid fa-star-half-stroke"></i></span>
+                </div>
+                <div>
+                    <span>Django</span>
+                    <span> <i class="fa-solid fa-star-half-stroke"></i></span>
+                </div>
+                <div>
+                    <span>SQL</span>
+                    <span> <i class="fa-solid fa-star"></i></span>
+                </div>
+                <div>
+                    <span>MERN FullStack</span>
+                    <span> <i class="fa-solid fa-star-half-stroke"></i></span>
+                </div>
+                <div>
+                    <span>Cyber Security</span>
+                    <span> <i class="fa-solid fa-star-half-stroke"></i></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!-- footer -->
+    <section class="footer">
+        <h3>About Us</h3>
+        <p>"We are a team of dedicated educators committed to providing innovative, accessible, and impactful learning experiences for learners of all backgrounds and abilities."</p>
+        <div class="icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+        <p>Made with <i class=" red fa-solid fa-heart"></i> by Syed Afnan <i class="o fa-solid fa-s"></i><i class="o fa-solid fa-a"></i></p>
+    </section>
+    <!-- toogle -->
+    <script>
+        var navLinks = document.getElementById('navLinks');
+        function showMenu(){
+            navLinks.style.right = "0";
+            // navLinks.style.display="block";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-255px";
+            // navLinks.style.display="none";
+        }
+    </script>
+</body>
+</html>

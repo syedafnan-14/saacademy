@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/phone.css">
+    <script src="https://kit.fontawesome.com/585bc2d4a8.js" crossorigin="anonymous"></script>
+    <title>SA Academy</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="">SA Academy</a>
+        
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./course.html">Course</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+            </ul>
+            <div class="io">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Contact Us</h1>
+    
+
+    </section>
+  
+    <!-- Contact us -->
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d973.7004392402448!2d76.88285479683212!3d12.529288291708891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bafa0de6e35587f%3A0xf04bf9c0bfc6958c!2sMandya%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1678809433576!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <span>
+                        <h5>XYZ Road, ABC Building</h5>
+                        <p>Mandya,Karnataka,IN</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>
+                        <h5>+91 1234567890</h5>
+                        <p>Monday to Saturday, 10AM to 6PM </p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>
+                        <h5>saacademy@sa.com</h5>
+                        <p>Emai us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+
+                <form action="">
+                    <input type="text" placeholder="Enter your Name">
+                    <input type="email" placeholder="Enter your Email">
+                    <input type="text" placeholder="Enter your Subject">
+                    <textarea name="" id="" cols="30" rows="8" placeholder="Message"></textarea>
+                    <button class="hero-btn red-btn" type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <section class="footer">
+        <h3>About Us</h3>
+        <p>"We are a team of dedicated educators committed to providing innovative, accessible, and impactful learning experiences for learners of all backgrounds and abilities."</p>
+        <div class="icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+        <p>Made with <i class=" red fa-solid fa-heart"></i> by Syed Afnan <i class="o fa-solid fa-s"></i><i class="o fa-solid fa-a"></i></p>
+    </section>
+    <!-- toogle -->
+    <script>
+        var navLinks = document.getElementById('navLinks');
+        function showMenu(){
+            navLinks.style.right = "0";
+            // navLinks.style.display="block";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-255px";
+            // navLinks.style.display="none";
+        }
+    </script>
+</body>
+</html>
