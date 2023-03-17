@@ -1,4 +1,4 @@
-@media(max-width:850px){
+@media(max-width:900px){
     *{
         overflow-x: hidden;
     }
@@ -23,7 +23,7 @@
         display: block;
         margin: auto;
         position: absolute;
-        bottom: 40px;
+        bottom: 60px;
         padding: 25px;
     }
     .io i{
